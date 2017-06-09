@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>WELCOME TO RELATIVE URL TEMPLATES</h1>
+    <a href="{% url 'basic_app:other' %}">LINK TO OTHER</a>
+    <a href="{% url 'admin:index'%}">LINK TO ADMIN</a>
+    <a href="{% url 'index' %}">LINK TO INDEX</a>
+    <!-- #basic_app comes from basic_app/urls.py while"other is below in urlpatterns -->
+  </body>
+</html>
